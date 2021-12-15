@@ -6,19 +6,20 @@ using System.Threading.Tasks;
 
 namespace Traveling_Salesman
 {
-    class Salesperson
+    class Salesperson : IComparable<Salesperson>
     {
-        private long[] pathBS;
+        private string[] pathBS;
         private int fitnessValue;
-        private ThePath path = new ThePath();
+        private ThePath path;
 
         public Salesperson()
         {
+            path = new ThePath();
             pathBS = path.APath;
             fitnessValue = 0;
         }
 
-        public long[] PathBS
+        public string[] PathBS
         {
             get
             {
@@ -44,13 +45,17 @@ namespace Traveling_Salesman
 
         public int CompareTo(Salesperson salesperson)
         {
-            if(salesperson == null)
+            if(this.fitnessValue > salesperson.FitnessValue)
             {
-                return 1;
+                return -1;
+            }
+            else if(this.fitnessValue == salesperson.fitnessValue)
+            {
+                return 0;
             }
             else
             {
-                return this.fitnessValue.CompareTo(salesperson.fitnessValue);
+                return 1;
             }
         }
             

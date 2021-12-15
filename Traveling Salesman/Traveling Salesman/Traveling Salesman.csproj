@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Launch.cs" />
+    <Compile Include="RandomNumber.cs" />
     <Compile Include="Salesperson.cs" />
     <Compile Include="ThePath.cs" />
     <Compile Include="Traveling.cs" />
