@@ -1,0 +1,6 @@
+C:\Users\fire2\source\repos\Traveling Salesman\Traveling Salesman\obj\Debug\Traveling Salesman.csprojAssemblyReference.cache
+C:\Users\fire2\source\repos\Traveling Salesman\Traveling Salesman\bin\Debug\Traveling Salesman.exe.config
+C:\Users\fire2\source\repos\Traveling Salesman\Traveling Salesman\bin\Debug\Traveling Salesman.exe
+C:\Users\fire2\source\repos\Traveling Salesman\Traveling Salesman\bin\Debug\Traveling Salesman.pdb
+C:\Users\fire2\source\repos\Traveling Salesman\Traveling Salesman\obj\Debug\Traveling Salesman.exe
+C:\Users\fire2\source\repos\Traveling Salesman\Traveling Salesman\obj\Debug\Traveling Salesman.pdb
